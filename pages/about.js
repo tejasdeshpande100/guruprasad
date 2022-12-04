@@ -12,7 +12,7 @@ import SponsorOne from "@/components/sponsor-one";
 import AboutTwo from "@/components/about-two";
 import { Row, Col } from "react-bootstrap";
 import FeatureOne from "@/components/feature-one";
-import AboutUsImage from "@/images/aboutUsImage.jpg";
+import AboutUsImage from "@/images/aboutUsImage.JPG";
 import Image from "next/dist/client/image";
 
 const About = () => {
