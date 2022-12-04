@@ -11,11 +11,11 @@ import SponsorOne from "@/components/sponsor-one";
 import AboutTwo from "@/components/about-two";
 import { Row, Col } from "react-bootstrap";
 import FeatureOne from "@/components/feature-one";
-import Lasik1Img from "@/images/media/lasik-1.JPG";
-import Squint1Img from "@/images/media/squint-1.JPG";
-import Squint2Img from "@/images/media/squint-2.JPG";
-import Squint3Img from "@/images/media/squint-3.JPG";
-import Squint4Img from "@/images/media/squint-4.JPG";
+import Lasik1Img from "@/images/media/lasik-1.jpg";
+import Squint1Img from "@/images/media/squint-1.jpg";
+import Squint2Img from "@/images/media/squint-2.jpg";
+import Squint3Img from "@/images/media/squint-3.jpg";
+import Squint4Img from "@/images/media/squint-4.jpg";
 import Image from "next/dist/client/image";
 
 const Media = () => {
