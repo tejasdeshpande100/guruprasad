@@ -70,8 +70,8 @@ const refractiveSurgery = (props) => {
           <i className="fa fa-check-circle"></i> The air conditioner won&apos;t
           turn on.
         </li> */}
-                    {refractiveSurgeryInfo.descpoints.map((symptom) => (
-                      <li>
+                    {refractiveSurgeryInfo.descpoints.map((symptom,index) => (
+                      <li key={index}>
                         <i className="fa fa-check-circle"></i> {symptom}
                       </li>
                     ))}

@@ -108,8 +108,8 @@ const refractiveSurgery = (props) => {
                   </h2>
                   <p>{glaucomaInfo.treatment_info}</p>
                   <ul style={{ marginBottom: "50px" }}>
-                    {glaucomaInfo.treatment_points.map((symptom) => (
-                      <li>
+                    {glaucomaInfo.treatment_points.map((symptom, index) => (
+                      <li key={index}>
                         <i className="fa fa-check-circle"></i> {symptom}
                       </li>
                     ))}

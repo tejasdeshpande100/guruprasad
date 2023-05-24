@@ -65,8 +65,8 @@ const refractiveSurgery = (props) => {
           turn on.
         </li> */}
 
-                    {oculoplastyInfo.descpoints.map((symptom) => (
-                      <li style={{ marginBottom: "10px" }}>
+                    {oculoplastyInfo.descpoints.map((symptom, index) => (
+                      <li key={index} style={{ marginBottom: "10px" }}>
                         <i className="fa fa-check-circle"></i> {symptom}
                       </li>
                     ))}

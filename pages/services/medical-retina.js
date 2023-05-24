@@ -69,8 +69,8 @@ const refractiveSurgery = (props) => {
                   <p>{medicalRetinaInfo.description}</p>
                   {/* <h2>Symptoms</h2> */}
                   <ul>
-                    {medicalRetinaInfo.descpoints.map((symptom) => (
-                      <li>
+                    {medicalRetinaInfo.descpoints.map((symptom, index) => (
+                      <li key={index}>
                         <i className="fa fa-check-circle"></i> {symptom}
                       </li>
                     ))}
