@@ -7,26 +7,6 @@ const ServiceSidebar = ({ details }) => {
   return (
     <div className="service_details_right">
       <h1 className="text-center">Our Specialities</h1>
-      {/* <div className="service_details_sv_cnt text-center service_cool_head">
-        <ul className="nav nav-tabs">
-          {ServiceSidebarListData.map(({ icon, title }, index) => (
-            <li className={`${active === index ? "active" : " "}`} key={index}>
-              <a
-                href={`#service-sidebar-tab-${index}`}
-                onClick={(e) => {
-                  e.preventDefault();
-                  setActive(index);
-                }}
-              >
-                <div className="service_center_left">
-                  <i className={icon}></i>
-                  <span>{title}</span>
-                </div>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div> */}
 
       <div className="tab-content">
         <div className="tab-pane show fade in active animated fadeIn">
@@ -44,30 +24,6 @@ const ServiceSidebar = ({ details }) => {
           </div>
         </div>
       </div>
-
-      {/* <div className="service_details_sv_cnt text-center service_class_remove mb-30">
-        <ul className="nav nav-tabs">
-          {ServiceSidebarOtherData.map(({ icon, title }, index) => (
-            <li
-              className={`${activeTwo === index ? "active" : " "}`}
-              key={index}
-            >
-              <a
-                href={`#service-sidebar-two-tab-${index}`}
-                onClick={(e) => {
-                  e.preventDefault();
-                  setActiveTwo(index);
-                }}
-              >
-                <div className="service_center_left">
-                  <i className={icon}></i>
-                  <span>{title}</span>
-                </div>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div> */}
 
       <div className="tab-content">
         {ServiceSidebarOtherData.map(({ content }, index) => {

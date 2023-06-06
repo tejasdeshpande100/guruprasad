@@ -28,16 +28,6 @@ const SliderOne = () => {
               <Container>
                 <Row>
                   <Col lg="6">
-                    {/* <p className="main-slider__subtext">
-                      <span className="subtitle_number">0{index + 1}</span>{" "}
-                      {text}
-                    </p> */}
-                    {/* <h1 className="main-slider__title">{title}</h1> */}
-                    {/* <div className="slide_button">
-                      <Link href={url} className="btn-yellow">
-                        {button}
-                      </Link>
-                    </div> */}
                   </Col>
                 </Row>
               </Container>

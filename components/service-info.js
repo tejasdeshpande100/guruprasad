@@ -1,6 +1,4 @@
 import React from "react";
-import Img from "./img";
-import shapeImage from "@/images/shape/service-color-shape.png";
 
 const ServiceInfo = () => {
   return (

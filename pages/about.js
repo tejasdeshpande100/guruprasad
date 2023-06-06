@@ -4,12 +4,6 @@ import HeaderOne from "@/components/header-one";
 import MenuContextProvider from "@/context/menu-context";
 import PageHeader from "@/components/page-header";
 import Footer from "@/components/footer";
-import AboutFour from "@/components/about-four";
-import VideoOne from "@/components/video-one";
-import TestimonialsOne from "@/components/testimonials-one";
-import TeamOne from "@/components/team-one";
-import SponsorOne from "@/components/sponsor-one";
-import AboutTwo from "@/components/about-two";
 import { Row, Col } from "react-bootstrap";
 import FeatureOne from "@/components/feature-one";
 import AboutUsImage from "@/images/aboutUsImage.JPG";
@@ -21,21 +15,11 @@ const About = () => {
       <Layout PageTitle="About Me">
         <HeaderOne />
         <PageHeader title="About Me" name="About" />
-        {/* <AboutFour />
-        <VideoOne />
-        <AboutTwo /> */}
-        {/* <TestimonialsOne /> */}
-        {/* <TeamOne extraClassName="section_border" /> */}
-        {/* <SponsorOne /> */}
-
+       
         <div className="mt-4 p-4">
           <Row>
             <Col lg={6} md={6} sm={12} xs={12}>
-              {/* <img
-                src="http://www.guruprasadeyeclinics.com/images/about-us.jpg"
-                width="100%"
-                alt=""
-              /> */}
+            
               <Image src={AboutUsImage} />
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
@@ -43,11 +27,7 @@ const About = () => {
                 
                 <p
                   style={{
-                    // color: "#000000",
-                    marginTop: "30px",
-                    // lineHeight: "28px",
-                    // fontWeight: "400",
-                    // fontSize: "18px",
+                    marginTop: "30px"
                   }}
                 >
                   Dr. Neha Deshpande is a promising eye surgeon who has more

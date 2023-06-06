@@ -9,17 +9,7 @@ export const Logo = {
 export const NavLinksData = [
   {
     name: "Home",
-    url: "/",
-    // subItems: [
-    //   {
-    //     name: "Home 01",
-    //     url: "/"
-    //   },
-    //   {
-    //     name: "Home 02",
-    //     url: "/index-2"
-    //   }
-    // ]
+    url: "/"
   },
   {
     name: "About Me",
@@ -36,11 +26,7 @@ export const NavLinksData = [
       {
         name: "Guruprasad Eye Care",
         url: "/hospitals/gEyeCare",
-      },
-      // {
-      //   name: "Elite Lasik ( Laser Centre )",
-      //   url: "/hospitals/elite-lasik",
-      // },
+      }
     ],
   },
 
@@ -299,8 +285,6 @@ export const CallToActionTwoData = {
   },
 };
 
-import funfactShape from "@/images/shape/about-shape.png";
-
 export const FunfactOneData = {
   shapeImage: "#",
   title: "Numbers Speakers.",
@@ -372,21 +356,21 @@ export const TestimonialOneData = {
       content:
         "This is a great hospital with a very co-operative staff Dr. Sameer and Dr. Neha always respond to the calls and messages in case of emergencies.",
       name: "Anirudh Bhosle",
-      // designation: "CEO",
+
     },
     {
       image: testimonial2,
       content:
         "Dr. Neha operated my father for cataract with trifocal and now he is able to see clearly for distance and near vision both. Thanks for the great efforts taken by Guruprasad team.",
       name: "Divya Kulkarni",
-      // designation: "Developer",
+
     },
     {
       image: testimonial3,
       content:
         "I am taking treatment from Dr. A.A deshpande since my school days. I have a very big minus number and he shifted me on rigid gas permeable lenses which made my number stable and allowed me to go glass free.",
       name: "Janet Jithuri",
-      // designation: "Director",
+
     },
   ],
 };
@@ -516,7 +500,6 @@ export const FooterWidgets = {
 
 import blog1 from "@/images/blog/eat_healthy.jpeg";
 import blog2 from "@/images/blog/keratoconus.jpeg";
-import blog3 from "@/images/blog/g-blog-3.png";
 
 export const BlogOneData = {
   title: "Our latest blogs ( pick one from previous website )",
@@ -577,26 +560,6 @@ export const AboutTwoData = {
       "We pride ourselves in having the best, soothing and serene ambience and respectful staff who always welcome you with a warm smile and make u feel right at home. ",
     tagline: "Why choose us",
   },
-  // lists: [
-  //   {
-  //     text: "Lorem Ipsum is simply dummy text of the printing.",
-  //   },
-  //   {
-  //     text: "Lorem Ipsum is simply dummy text of the printing.",
-  //   },
-  //   {
-  //     text: "Lorem Ipsum is simply dummy text of the printing.",
-  //   },
-  //   {
-  //     text: "Lorem Ipsum is simply dummy text of the printing.",
-  //   },
-  //   {
-  //     text: "Lorem Ipsum is simply dummy text of the printing.",
-  //   },
-  //   {
-  //     text: "Lorem Ipsum is simply dummy text of the printing.",
-  //   },
-  // ],
   offer: {
     tagline: "10% off",
     text: "on our all services for senior citizens.",
@@ -606,7 +569,6 @@ export const AboutTwoData = {
 import team1 from "@/images/team/doc-1.png";
 import team2 from "@/images/team/doc-2.png";
 import team3 from "@/images/team/doc-3.png";
-import team4 from "@/images/team/team-4.jpg";
 
 export const TeamOneData = {
   title: "Meet The Doctors ( This section should be removed )",

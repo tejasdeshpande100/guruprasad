@@ -1,7 +1,7 @@
 import { AboutTwoData } from "@/data";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import FeatureOne from "./feature-one";
+
 const AboutTwo = () => {
   const { caption, blockTitle, lists, offer } = AboutTwoData;
   function createMarkup() {
@@ -24,13 +24,6 @@ const AboutTwo = () => {
                 <h4 className="heading_with_border">{blockTitle.tagline}</h4>
                 <h1 style={{ fontSize: "20px" }}>{blockTitle.title}</h1>
               </div>
-              {/* <ul>
-                {lists.map(({ text }, index) => (
-                  <li key={index}>
-                    <i className="fa fa-check-circle"></i> {text}
-                  </li>
-                ))}
-              </ul> */}
               <div className="about_service_discount text-center">
                 <h1>{offer.tagline}</h1>
                 <p>{offer.text}</p>

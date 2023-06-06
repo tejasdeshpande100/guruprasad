@@ -1,10 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import serviceShape from "@/images/shape/service-shape.png";
 import Link from "./link";
-import Img from "./img";
 import { AboutThreeData } from "@/data";
-import { submit } from "dom7";
 
 const AboutThree = () => {
   const { blockTitle, summery, button, box } = AboutThreeData;
@@ -23,7 +20,6 @@ const AboutThree = () => {
                 {button.lable}
               </Link>
               <div className="about_gray_shape">
-                {/* <Img src={serviceShape} alt="about shape" layout="responsive" /> */}
               </div>
             </div>
           </Col>

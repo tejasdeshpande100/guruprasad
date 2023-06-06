@@ -9,7 +9,7 @@ const BlogPost = () => {
   const { slug } = router.query;
 
   const [content, setContent] = useState([]);
-  // const id = slug;
+  
   const getEntry = async () => {
     const entry = await client.getEntry(slug);
     setContent(entry);
@@ -25,7 +25,6 @@ const BlogPost = () => {
   const date = content?.fields?.date.slice(0, 10);
   const author = content?.fields?.author?.content[0]?.content[0].value;
   const centerImage = content?.fields?.centerImages;
-  // const url = "https:" + imageUrl;
   const url = `https:${imageUrl}`;
   let imagess =
     centerImage &&
@@ -75,7 +74,6 @@ const BlogPost = () => {
                           alt={title}
                           width={200}
                           height={200}
-                          // layout="responsive"
                         />
                       );
                     })}

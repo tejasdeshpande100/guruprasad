@@ -5,7 +5,6 @@ import MenuContextProvider from "@/context/menu-context";
 import PageHeader from "@/components/page-header";
 import Footer from "@/components/footer";
 import AboutFive from "@/components/about-five";
-import VideoOne from "@/components/video-one";
 import TestimonialsOne from "@/components/testimonials-one";
 import AboutTwo from "@/components/about-two";
 

@@ -1,6 +1,5 @@
 import React from "react";
 import { useFormik } from "formik";
-import { datePickerToUST } from "utils/timeFunctions";
 
 const ContactThree = () => {
   const formik = useFormik({
@@ -67,20 +66,6 @@ const ContactThree = () => {
                   onChange={formik.handleChange}
                   value={formik.values.mobile}
                 />
-                {/* <span className="select_icon_half">
-                  <select name="select" id="select">
-                    <option value="option0">Select Service</option>
-                    <option value="option1">Optical Services</option>
-                    <option value="option2">Contact Lenses</option>
-                    <option value="option3">Pathology Laboratory</option>
-                    <option value="option4">Oculoplasty Services</option>
-                    <option value="option5">Medical Services</option>
-                    <option value="option6">Glaucoma Services</option>
-                    <option value="option7">Cornea Services</option>
-                    <option value="option8">Refractive Surgery Services</option>
-                    <option value="option9">Cataract Services</option>
-                  </select>
-                </span> */}
                 <textarea
                   name="message"
                   id="content"

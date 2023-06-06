@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import BlogCard from "@/components/blog-card";
-import { BlogTwoData } from "@/data";
 import { client } from "../client";
 const BlogTwo = () => {
   const [content, setContent] = useState([]);

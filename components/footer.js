@@ -1,7 +1,5 @@
 import React from "react";
 import { FooterBottomData, FooterInfo, FooterWidgets } from "@/data";
-import FooterShape from "@/images/shape/footer-shape.png";
-import Img from "@/components/img";
 
 const Footer = () => {
   return (
@@ -45,8 +43,6 @@ const Footer = () => {
                   <i class="bi bi-phone footer_icon"></i>{" "}
                   {FooterWidgets.about.phone.label}
                 </a>
-                {/* <h4>{FooterWidgets.about.tagLine}</h4> */}
-                {/* <span className="number">{FooterWidgets.about.phone}</span> */}
               </div>
             </div>
             <div className="col-md-2 col-sm-3">
@@ -103,7 +99,6 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer_shape">
-        {/* <Img src={FooterShape} alt="footer shape" /> */}
       </div>
     </footer>
   );

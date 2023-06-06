@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import ReactVisibilitySensor from "react-visibility-sensor";
 import CountUp from "react-countup";
@@ -6,7 +6,6 @@ import Img from "@/components/img";
 import { FunfactOneData } from "@/data";
 
 const FunfactOne = () => {
-  const countUpRef = useRef(null);
 
   const { shapeImage, title, posts } = FunfactOneData;
 

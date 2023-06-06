@@ -1,5 +1,4 @@
 import React from "react";
-import Img from "./img";
 import Link from "@/components/link";
 import Image from "next/image";
 
