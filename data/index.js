@@ -501,29 +501,29 @@ export const FooterWidgets = {
 import blog1 from "@/images/blog/eat_healthy.jpeg";
 import blog2 from "@/images/blog/keratoconus.jpeg";
 
-export const BlogOneData = {
-  title: "Our latest blogs ( pick one from previous website )",
-  posts: [
-    {
-      image: blog1,
-      date: "07 Nov",
-      author: "admin",
-      commentCount: 3,
-      title: "Eye Health",
-      url: "/blog-details",
-      text: "Eating eggs is good for eyes as it contains lutein and zeaxanthin. Adding fish to your diet will give you omega 3 fatty acids which will prevent dry eye syndrome ...",
-    },
-    {
-      image: blog2,
-      date: "07 Nov",
-      author: "admin",
-      commentCount: 3,
-      title: "Keratoconus",
-      url: "/blog-details-2",
-      text: "Keratoconus (KC) is a non-inflammatory degenerative disorder of the eye in which the normally round dome-shaped cornea progressively ...",
-    },
-  ],
-};
+// export const BlogOneData = {
+//   title: "Our latest blogs ( pick one from previous website )",
+//   posts: [
+//     {
+//       image: blog1,
+//       date: "07 Nov",
+//       author: "admin",
+//       commentCount: 3,
+//       title: "Eye Health",
+//       url: "/blog-details",
+//       text: "Eating eggs is good for eyes as it contains lutein and zeaxanthin. Adding fish to your diet will give you omega 3 fatty acids which will prevent dry eye syndrome ...",
+//     },
+//     {
+//       image: blog2,
+//       date: "07 Nov",
+//       author: "admin",
+//       commentCount: 3,
+//       title: "Keratoconus",
+//       url: "/blog-details-2",
+//       text: "Keratoconus (KC) is a non-inflammatory degenerative disorder of the eye in which the normally round dome-shaped cornea progressively ...",
+//     },
+//   ],
+// };
 
 export const BlogTwoData = {
   posts: [

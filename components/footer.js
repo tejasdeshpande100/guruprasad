@@ -40,7 +40,7 @@ const Footer = () => {
                   {FooterWidgets.about.contact2.label}
                 </a>
                 <a href={FooterWidgets.about.phone.url}>
-                  <i class="bi bi-phone footer_icon"></i>{" "}
+                  <i className="bi bi-phone footer_icon"></i>{" "}
                   {FooterWidgets.about.phone.label}
                 </a>
               </div>

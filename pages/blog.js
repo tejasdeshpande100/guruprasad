@@ -4,7 +4,6 @@ import HeaderOne from "@/components/header-one";
 import MenuContextProvider from "@/context/menu-context";
 import PageHeader from "@/components/page-header";
 import Footer from "@/components/footer";
-import BlogTwo from "@/components/blog-two";
 
 const Blog = () => {
   return (
@@ -15,7 +14,7 @@ const Blog = () => {
           title="A directory of essential & interesting information"
           name="Blog"
         />
-        <BlogTwo />
+        Hi
         <Footer />
       </Layout>
     </MenuContextProvider>
