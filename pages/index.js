@@ -12,7 +12,10 @@ import HeaderOne from "@/components/header-one";
 import SliderOne from "@/components/slider-one";
 import FeatureOne from "@/components/feature-one";
 import AboutOne from "@/components/about-one";
-const HomeTwo = () => {
+import { getAllPosts } from '../lib/api'
+
+const HomeTwo = ({ allPosts }) => {
+
   return (
     <MenuContextProvider>
       <Layout PageTitle="Home">
@@ -26,7 +29,7 @@ const HomeTwo = () => {
         <AboutTwo />
         <VideoOne />
         <TestimonialsOne />
-        <BlogOne />
+        <BlogOne allPosts={allPosts} />
        
         <CtaOne />
         <Footer />
@@ -34,5 +37,21 @@ const HomeTwo = () => {
     </MenuContextProvider>
   );
 };
+
+export const getStaticProps = async () => {
+  const allPosts = getAllPosts([
+    'title',
+    'date',
+    'slug',
+    'author',
+    'coverImage',
+    'excerpt',
+  ])
+
+  return {
+    props: { allPosts },
+  }
+}
+
 
 export default HomeTwo;

@@ -11,6 +11,7 @@ import "@/css/font-awesome.min.css";
 import "@/css/fontello.css";
 import "@/css/style.css";
 import "@/css/responsive.css";
+import '../styles/index.css'
 
 function MyApp({ Component, pageProps }) {
   return (
