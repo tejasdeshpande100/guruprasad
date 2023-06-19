@@ -63,8 +63,8 @@ const cataract = (props) => {
                   <h2>Symptoms</h2>
                   <ul>
 
-                    {cataractInfo.symptoms.map((symptom) => (
-                      <li>
+                    {cataractInfo.symptoms.map((symptom,index) => (
+                      <li key={index}>
                         <i className="fa fa-check-circle"></i> {symptom}
                       </li>
                     ))}
