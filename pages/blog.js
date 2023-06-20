@@ -27,7 +27,7 @@ const Blog = ({ allPosts }) => {
         
         <BlogLayout>
         <Head>
-          <title>{`Next.js Blog Example with ${CMS_NAME}`}</title>
+          <title>{`Blog by Neha Deshpande`}</title>
         </Head>
         <Container>
           <Intro />
