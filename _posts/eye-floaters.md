@@ -9,7 +9,7 @@ author:
 ogImage:
   url: '/assets/blog/eye-floaters/cover.jpg'
 ---
-
+ 
 In this article, I answer some of the frequently asked questions about eye floaters, so you know what to do if you start seeing floaters and whether to be concerned.
 
 Have you ever noticed something drifting around your field of vision, but whenever you try to get a closer look it disappears, only to reappear as soon as you move your eyes? What you are seeing is a common phenomenon known as an eye floater.
